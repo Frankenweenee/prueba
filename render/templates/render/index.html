@@ -17,7 +17,7 @@
   <link href="./assets/favicon.ico" rel="icon">
 
   <title>Home</title>  
- <link href= "{% static 'css/style_front.css' %}" rel="stylesheet">
+ <link href= "{% static 'render/style_front.css' %}" rel="stylesheet">
 </head>
 
 <body class="minimal">
@@ -48,7 +48,7 @@
   </nav>
 </header>
 
-<div class="hero-full-container background-image-container white-text-container" style="background-image: url({% static 'img/space.jpg' %})">
+<div class="hero-full-container background-image-container white-text-container" style="background-image: url({% static 'render/space.jpg' %})">
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
@@ -75,7 +75,7 @@
        movingBackgroundImage();
     });
   </script>
-<script src="{% static 'js/main.js' %}"></script>
+<script src="{% static 'render/main.js' %}"></script>
 
 </body>
 </html>
