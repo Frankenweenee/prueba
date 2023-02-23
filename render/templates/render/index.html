@@ -17,7 +17,7 @@
   <link href="./assets/favicon.ico" rel="icon">
 
   <title>Home</title>  
-  <link rel="stylesheet" href= "{% static 'css/style_front.css' %}" rel="stylesheet">
+  <link href= "{% static 'css/style_front.css' %}" rel="stylesheet">
 </head>
 
 <body class="minimal">
@@ -48,7 +48,7 @@
   </nav>
 </header>
 
-<div class="hero-full-container background-image-container white-text-container" style="background-image: url('{% static "img/space.jpg" %}')">
+<div class="hero-full-container background-image-container white-text-container" style="background-image: url({% static 'img/space.jpg' %})">
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
