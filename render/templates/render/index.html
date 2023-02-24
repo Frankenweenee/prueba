@@ -9,7 +9,7 @@
     <title>Hello Django on Render!</title>
 
     <link rel="stylesheet"
-          href= "{% static 'render/style_front.css' %}">
+          href= "{% static 'css/style_front.css' %}">
 </head>
 <body class="minimal">
     <div id="site-border-left"></div>
@@ -39,7 +39,7 @@
         </nav>
     </header>
     
-    <div class="hero-full-container background-image-container white-text-container" style="background-image: url('{% static 'render/space.jpg' %}')">
+    <div class="hero-full-container background-image-container white-text-container" style="background-image: url('{% static 'img/space.jpg' %}')">
         <div class="container">
         <div class="row">
             <div class="col-xs-12">
@@ -65,5 +65,5 @@
            movingBackgroundImage();
         });
       </script>
-    <script src="{% static 'render/main.js' %}"></script>
+    <script src="{% static 'js/main.js' %}"></script>
 </body>
